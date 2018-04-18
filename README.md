@@ -11,13 +11,13 @@
 ### ss-panel mod魔改版一键脚本
 ```
 yum install screen wget -y &&screen -S ss 
-wget -N --no-check-certificate https://raw.githubusercontent.com/mmmwhy/ss-panel-and-ss-py-mu/master/ss-panel-v3-mod.sh && chmod +x ss-panel-v3-mod.sh && bash ss-panel-v3-mod.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/1443213244/ss-panel-and-ss-py-mu/master/ss-panel-v3-mod.sh && chmod +x ss-panel-v3-mod.sh && bash ss-panel-v3-mod.sh
 
 ```
 ### ss-panel v3一键脚本
 ```
 yum install screen wget -y &&screen -S ss
-wget -N --no-check-certificate https://raw.githubusercontent.com/mmmwhy/ss-panel-and-ss-py-mu/master/ss-panel_node.sh && chmod +x ss-panel_node.sh && bash ss-panel_node.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/1443213244/ss-panel-and-ss-py-mu/master/ss-panel_node.sh && chmod +x ss-panel_node.sh && bash ss-panel_node.sh
 
 ```
 
@@ -25,7 +25,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/mmmwhy/ss-panel
 
 默认账号：91vps
 
-默认密码：91vps
+默认密码：123
 
 # 关于
 码农一只，欢迎打赏。
