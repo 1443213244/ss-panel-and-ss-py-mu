@@ -23,7 +23,7 @@ install_ss_panel_mod_v3(){
 	wget -N -P  /usr/local/nginx/conf/ --no-check-certificate https://raw.githubusercontent.com/1443213244/ss-panel-and-ss-py-mu/master/nginx.conf
 	service nginx restart
 	IPAddress=`wget http://whatismyip.akamai.com/ -O - -q ; echo`;
-	sed -i "s#103.74.192.11#${IPAddress}#" /home/wwwroot/default/sql/sspanel.sql
+	sed -i "s#172.105.196.49#${IPAddress}#" /home/wwwroot/default/sql/sspanel.sql
 	mysql -uroot -proot -e"create database sspanel;" 
 	mysql -uroot -proot -e"use sspanel;" 
 	mysql -uroot -proot sspanel < /home/wwwroot/default/sql/sspanel.sql
