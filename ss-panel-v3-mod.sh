@@ -289,7 +289,7 @@ install_panel_and_node(){
 	chmod +x /etc/rc.d/rc.local
 	echo "#############################################################"
 	echo "# 安装完成，登录http://${IPAddress}看看吧~                   #"
-	echo "# 用户名: 91vps 密码: 91vps                                  #"
+	echo "# 用户名: 91vps 密码: 123                                  #"
 	echo "# phpmyadmin：http://${IPAddress}:888  用户名密码均为：root  #"
 	echo "# 安装完成，节点即将重启使配置生效                           #"
 	echo "# Github: https://github.com/1443213244/ss-panel-and-ss-py-mu #"
